@@ -1,0 +1,141 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: #faf8f5; /* สีพื้นหลังครีมอ่อนๆ สบายตา */
+    color: #555; /* เปลี่ยนจากดำทึบเป็นสีเทาเข้มให้ดูนุ่มลง */
+}
+
+/* แถบด้านบน */
+.announcement-bar {
+    background-color: #d4eedb; /* สีเขียวพาสเทลอ่อนๆ */
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+/* ส่วนหัว */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #77ce91; /* โลโก้สีเขียวศิลปากร */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* จัด Layout ซ้ายขวาแบบเบสิก */
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 10%;
+    flex-wrap: wrap; /* เผื่อหน้าจอเล็กให้มันตกลงมา */
+}
+
+.hero-left {
+    flex: 1;
+    min-width: 300px; /* กันกล่องบีบเกินไป */
+}
+
+.hero-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* รูปภาพในสไลด์ */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px; /* มุมโค้งมนน่ารักๆ */
+}
+
+/* กล่องข้อความฝั่งขวา (แบบติ๋มๆ ไม่มีเส้นขอบหนา) */
+.info-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    /* ใช้เงาแบบฟุ้งๆ อ่อนๆ แทนเงาสีเขียวทึบๆ */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); 
+    border: 1px solid #f0f0f0; /* เส้นขอบบางเฉียบ */
+}
+
+.info-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #77ce91; /* หัวข้อสีเขียว */
+}
+
+.info-box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* ส่วนท้าย (Footer) */
+footer {
+    background-color: #eaf5ed; /* สีเขียวอ่อนม้ากกก กลืนไปกับเว็บ */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    margin-top: 60px;
+    color: #555;
+}
+
+footer{
+    background-color: #77ce91;   /* สีเขียวของคุณ */
+        display: flex;               /* สั่งให้กล่องข้างในเรียงแนวนอน */
+        justify-content: space-between; /* กระจายกล่องทั้ง 3 ใบให้ห่างเท่าๆ กัน */
+        padding: 60px 10%;           /* เว้นพื้นที่ว่างด้านใน (บนล่าง 60px, ซ้ายขวา 10%) */
+        color: #222;                 /* สีตัวอักษรเป็นสีดำอมเทา */
+        margin-top: 80px;            /* ดัน Footer ให้ห่างจากเนื้อหาด้านบน */
+        border-top: 3px solid #222;
+}
+.footer-col h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    font-size: px;
+   
+    letter-spacing: 1px;         
+}
+
+
+.footer-col a {
+    color: #222;
+    text-decoration: none; 
+}
+
+/* พอเอาเมาส์ชี้ ค่อยให้ขีดเส้นใต้ขึ้นมา (Hover effect) */
+.footer-col a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}

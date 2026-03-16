@@ -1,0 +1,72 @@
+.team-section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.team-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;           
+    flex-wrap: wrap;      
+}
+
+
+.team-card {
+    background-color: #f2f0e9; 
+    border: 3px solid #222;
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 250px;        
+    box-shadow: 6px 6px 0px #77ce91; 
+    transition: transform 0.3s ease;
+}
+
+
+.team-card:hover {
+    transform: translateY(-10px);  /* ทำให้ชี้แล้วขยับ*/
+}
+
+
+.card-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    border: 2px solid #222;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    margin: 10px 0 5px 0;
+    font-size: 22px;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+
+.ig-btn {
+    display: inline-block;
+    background-color: #cce6d4;
+    color: #222;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 2px solid #222;
+    border-radius: 50px;  
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ig-btn:hover {
+    background-color: #a0f8bc; 
+}
